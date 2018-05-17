@@ -1,0 +1,104 @@
+.galerytable {
+  width: 100%;
+  height: 700px;
+}
+
+.galerytable tr td {
+  width: 33%;
+  height: 233px;
+}
+
+.galerytable tr td img {
+  padding: 5%;
+  width: 90%;
+  height: 200px;
+  cursor: pointer;
+}
+
+
+.galeryphon {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.galeryphon img {
+  display: none;
+  position: fixed;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 0px;
+  margin: 0px;
+  background-color: #e6e6e6;
+}
+
+.main {
+  background-color: #e6e6e6;
+  width: 80%;
+  position: absolute;
+  top: 40px;
+  left: 10%;
+}
+
+.header {
+  background-color: black;
+}
+
+.header img {
+  text-align: center;
+}
+
+.content {
+  background-color: white;
+}
+
+.menu {
+  background-color: black;
+  position: fixed;
+  width: 80%;
+  height: 40px;
+  left: 10%;
+}
+
+.menu table tr td {
+  color: white;
+}
+
+.menu table tr td img {
+  cursor: pointer;
+}
+
+.infomain {
+  padding: 10px;
+  width: 67%;
+  float: left;
+  background-color: white;
+}
+
+.info {
+  padding: 10px;
+  background-color: white;
+}
+
+.rightMenu {
+  /*border-left: 3px solid black;*/
+  padding: 10px;
+  background-color: white;
+  float: right;
+  width: 28%;
+}
+
+.footer {
+  color: white;
+  clear: left;
+  background-color: black;
+}
+
+form table tr td span {
+  color: red;
+}

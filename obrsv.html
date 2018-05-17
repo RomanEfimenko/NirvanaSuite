@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Информация</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="script/validate.js"></script>
+</head>
+<body>
+	<div class="main">
+	<div class="header" align="center">
+	<img src="image/Shapka.png" height="240px">
+	</div>
+	<div class="content">
+	<div class="infomain">
+		<h1 align="center">Обратная связь</h1>
+		<br>
+		<form name="sms">
+			<table>
+			<tr>
+				<td>Ваше имя:</td>
+				<td><input type='text' name='name' id='name' size="39"><span id='namered' hidden="true"> * должно быть от 3 до 25 символов!</span><span id='namered2' hidden="true"> * должны быть только буквы!</span></td>
+			</tr>
+			<tr>
+				<td>Ваш email:</td>
+				<td><input type='text' name='email' id='email' size="39"><span id='emailred' hidden="true"> * данное поле не должно быть пустое!</span><span id='emailred2' hidden="true"> * email введен не верно!</span></td>
+			</tr>
+			<tr>
+				<td valign="top">Ваше сообщение:</td>
+				<td><textarea name='mail' id='mail' rows="10" cols="30"></textarea><span id='mailred' hidden="true"> * данное поле не должно быть пустое!</span></td>
+			</tr>
+			<tr>
+				<td valign="top"><input name="md5" type="hidden">Введите капчу:</td>
+				<td><span id="aspm"></span><input type='text' name='capcha' id='capcha' size="15"></td>
+			</tr>
+			</table>
+		</form>
+		<button id='submitmail'>Отправить</button>
+	</div>
+	<div class="rightMenu">
+		<h1 align="center">Контакты</h1>
+		<p>Email: lousenpai228@gmail.com</p>
+		<p>Skype: lawofukraine</p>
+	</div>
+	</div>
+	<div class="footer">	
+		<font color="black">_</font><span onclick="alert('lousenpai228@gmail.com')" style="cursor: pointer;">by LS</span>
+	</div>
+	</div>
+	<div class="galeryphon" id="galeryback" onclick="galerybacktoggle()">
+		<img src="image/smstrue.png" id="submittrue">
+	</div>
+	<div id="menu" class="menu">
+		<table>
+			<tr>
+			<td><img src="image/menu1.png" onclick="location.href = 'index.html'"></td>
+			<td><img src="image/menu2.png" onclick="location.href = 'info.html'"></td>
+			<td><img src="image/menu3.png" onclick="location.href = 'galery.html'"></td>
+			<td><img src="image/menu4.png" onclick="location.href = 'alboms.html'"></td>
+			<td><img src="image/menu5.png" onclick="location.href = 'obrsv.html'"></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
